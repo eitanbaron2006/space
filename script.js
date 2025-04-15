@@ -423,7 +423,7 @@ const nucleotideLabels = [];
 let labeledCount = 0;
 for (let i = 0; i < nucleotides.children.length && labeledCount < 2; i += 10) {
     const nucleotide = nucleotides.children[i];
-    const label = createLabel('נוקלאוטיד', new THREE.Vector3(0, 1.5, 0), nucleotide);
+    const label = createLabel('נוקלאוטידים', new THREE.Vector3(0, 1.5, 0), nucleotide);
     nucleotideLabels.push(label);
     labeledCount++;
 }
